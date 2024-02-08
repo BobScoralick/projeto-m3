@@ -23,8 +23,8 @@ function createTaskItem(taskList){
   const deleteBtn = document.createElement('button')
   li.classList.add("task__item")
   div.classList.add("task-info__container")
-  // span.classList.add("task-type")
-  if(taskList.type == 'Normal' ){
+  span.classList.add("task-type")
+  if (taskList.type == 'Normal' ){
   span.classList.add('span-normal')  
   } else if (taskList.type == 'Importante'){
   span.classList.add('span-important')
@@ -44,7 +44,8 @@ function createTaskItem(taskList){
 return li
 
 }
-renderElements(tasks)
+
+// renderElements(tasks)
 
 const button = document.getElementsByClassName("form__button--add-task");
 const newTask = document.querySelector('#input_title')

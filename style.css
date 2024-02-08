@@ -1,38 +1,43 @@
-.header__container{
-    background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu:ital,wght@0,500;1,700&display=swap');
+
+.header__container{    
     padding: 22px;
-}
+    background-color: white; 
+} 
 .header__content{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; 
 }
 .header__title{
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color:  #3b5bdb;
-    font-size: 25px;
+    font-weight: 700;    
+    font-size: 25px;  
+    color:  #3b5bdb; 
 }
 .header__input--search{
     width: 502px;
     height: 54px;
-    font-size: 15px;
-    border: 0;
     padding: 20px;
+    font-size: 15px; 
+    border: 0;
 }
 
 input{
 background-color: 	
 #ebebeb;
-border-radius: 5px;
-}
-body {
-    background-color: 	
-    #e2e2e2;
-    font-family: 'Roboto', sans-serif;
+border-radius: 5px; 
 }
 
-.main__container{
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #e2e2e2;
+}
+
+.main__container{ 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,12 +46,12 @@ body {
 .form__container {
     width: 942px;
     height: 300px;
-    background-color: white;
     margin: 50px;
     border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;   
+    flex-wrap: wrap; 
     align-content: space-around;
+    background-color: white;
 }
 
 .form__title, h2 {
@@ -56,30 +61,30 @@ body {
 }
 
 .form__input-container{
-    margin-top: -22px;
-    
+    margin-top: -22px;    
 }
+
 .form__input--text{
     width: 476px;
-    height: 7px;
-    font-size: 15px;
+    height: 7px; 
+    font-size: 15px; 
     padding: 20px;
 }
 
 .input__box{
-    background-color:  #ebebeb;
     border: 0;
     margin-left: 29px;
     border-radius: 5px;
-    color: #757575;
+    background-color:  #ebebeb; 
+    color: #757575; 
 }
 
 .form__input--priority{
     height: 50px;
     width: 308px;
+    padding: 15px; 
     font-size: 15px;
-    padding: 15px;
-   
+  
 }
 
 .form__button--add-task {
@@ -89,53 +94,60 @@ body {
     border-radius: 5px;
     margin-top: -41px;
     margin-left: 30px;
-    background-color: #3b5bdb;
-    color: white;
     font-size: 18px;
     margin-bottom: 29px;
+    background-color: #3b5bdb;
+    color: white;
 }
 
 .tasks__container {
     width: 886px;
-    background-color: white;
     margin: 50px;
+    padding: 30px;
     border-radius: 10px;
     display: flex;
     flex-wrap: nowrap;
     align-content: space-around;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
+    background-color: white;
 }
+
 .task__item{
-    background-color: 	 #f1f3f5;
     margin: 10px;
+    background-color: 	 #f1f3f5;
     display: flex;
     flex-wrap: nowrap;
     font-size: 17px;
     width: 830px;
     height: 56px;
     justify-content: space-between;
-    border-radius: 5px; 
-    
+    border-radius: 5px;   
 }
 
 .task-type{
-    background: lightblue;
+    
     border-radius: 50%;
     width: 11px;
     height: 11px;
     display: flex;
     margin-right: 19px;
+    background-color: lightblue;
 }
-.span-important{
+
+.span-important{      
     background-color:#f3a703;
+    
 }
-.span-normal{
+
+.span-normal{  
     background-color: #028302;
+
 }
-.span-urgent{
+
+.span-urgent{ 
     background-color: #e40404;
+
 }
 
 .task-info__container{
@@ -143,16 +155,14 @@ body {
     display: flex;
     align-items: center;
     font-weight: 400;
-
 }
 
 .tasks__list {
+    margin-top: 41px; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 41px;
-   
-  
+     
 }
 
 .task__button--remove-task {
@@ -161,6 +171,5 @@ body {
     border: 0;
     width: 15px;
     margin-right: 33px;
-    margin-top: 18px;
-  
+    margin-top: 18px;  
 }
