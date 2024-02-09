@@ -45,7 +45,7 @@ return li
 
 }
 
-// renderElements(tasks)
+renderElements(tasks)
 
 const button = document.getElementsByClassName("form__button--add-task");
 const newTask = document.querySelector('#input_title')
